@@ -21,7 +21,8 @@ def calculate():
     E8 =  H8 * price
 
     total = price * (H1 + H2 + H3 + H4 + H5 + H6 + H7 + H8)
-    SUMS = E1 + E2 + E3 + E4 + E5 + E6 + E7 + E8
+    SUMS = H1 + H2 + H3 + H4 + H5 + H6 + H7 + H8
+
     print("\n" + "╔" + "═" * 48 + "╗")
     print("║" + " " * 14 + "ПІДСУМОК ПРОДАЖІВ ЗА ЗМІНУ" + " " * 8 + "║")
     print("╠" + "═" * 48 + "╣")
